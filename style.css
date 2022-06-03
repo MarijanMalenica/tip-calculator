@@ -1,0 +1,90 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+* {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 4vh;
+}
+
+.flexbox-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+
+    width: 18vw;
+    height: 45vh;
+    border: 5px solid #007840;
+    background-color: #d6ffec;
+}
+
+.input-div {
+    color: #007840;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.result-div {
+    margin-top: 40px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    color: #007840;
+    font-size: 3vh;
+}
+
+.button-div {
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#confirm-button {
+    margin-top: 15px;
+    height: 4vh;
+    width: 6vw;
+    color: #007840;
+    border: 2px solid #007840;
+    font-size: 2vh;
+}
+
+#confirm-button:active {
+    background-color: #007840;
+    color: white;
+}
+
+h2 {
+    margin: 15px;
+}
+
+input {
+    margin-bottom: 15px;
+    color: #007840;
+    text-align: center;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid #007840;
+}
